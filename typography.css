@@ -1,0 +1,284 @@
+/* Global Typo */
+.h1-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8em !important;
+}
+
+.h1-title,
+.form-title {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.h2-subt {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+
+.text-cont {
+  font-size: 0.5em;
+  letter-spacing: 1;
+}
+
+.h2-cont {
+  font-size: 0.8em;
+  font-weight: 300;
+
+}
+
+.form-title {
+  font-size: 1em;
+}
+
+/* media queries for Global  Typo */
+
+
+@media (max-width: 1200px) {
+  .h1-title {
+    font-size: 1.3em
+  }
+}
+
+@media (max-width: 550px) {
+  .h1-title {
+
+    font-size: 1.4em;
+  }
+
+  .h2-subt {
+    font-size: 1.2em;
+  }
+
+  .p-text {
+    font-size: 0.9em
+  }
+}
+
+/* ======  Navbar typo ====== */
+
+/* the logo is the same in index & gallery pages */
+.navlogo,
+.nav-logo {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar-li a {
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+.navbar-li a:hover {
+  font-size: 1.8em;
+  background-color: grey;
+
+}
+
+.navbar-li:hover {
+
+  background-color: rgba(163, 162, 162, 0.1);
+
+}
+
+/* media query Navbar typo mobile */
+
+@media (max-width: 800px) {
+  .navlogo a {
+    font-size: 1em;
+    padding: 0;
+
+
+  }
+
+  .navbar-li a {
+    font-size: 1em;
+
+  }
+
+  .navbar-li a:hover {
+    font-size: 1.3em;
+
+
+  }
+
+}
+
+
+
+/* ======  row-1 landing section typo ====== */
+
+.box-pt-fist-line,
+.box-pt-second-line,
+.box-pt-third-line {
+  text-transform: capitalize;
+  color: #413737;
+
+}
+
+
+.box-pt-fist-line {
+  font-size: 1.5em;
+  padding-left: 3px;
+}
+
+.box-pt-second-line,
+.box-pt-third-line {
+  font-size: 4em;
+}
+
+
+/* <!-- ========= section row-2  Intro Section ======================== --> */
+
+.text h1,
+.text h2 {
+  text-align: center;
+  padding: 0.5em 0.5em 0.5em;
+
+}
+
+
+
+.text p {
+  text-align: left;
+  max-width: 400px;
+
+}
+
+.text {
+  gap: 2px;
+}
+
+.text h1,
+.text h2 {
+  min-width: 100%;
+}
+
+.text:first-child {
+  margin-top: 40px;
+}
+
+.p-text {
+  padding: 40px 20px;
+  text-indent: 1em;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-align: end;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+
+
+
+/* typo row 3 */
+
+/* about text styles */
+
+.text-ab h1,
+.text-ab h2,
+.text-ab p {
+  padding: 20px;
+}
+
+.text-ab h1,
+.text-ab h2 {
+  text-align: center;
+}
+
+
+.p-about-one {
+  background-color: rgba(222, 233, 160, 0.4)
+}
+
+
+/* Row-4 typo styles contact section */
+
+.-b {
+  color: #fff;
+  padding: 30px 20px;
+
+}
+
+.box-b-text {
+  text-transform: capitalize;
+
+}
+
+.box-b-text h2 {
+  text-decoration: underline;
+}
+
+.address p,
+.phone p {
+  max-width: 250px;
+
+}
+
+
+/* typo Gallery Page */
+
+.gallery-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 50px;
+}
+
+.h1-gallery,
+.h2-gallery {
+  padding: 0px 40px 40px 6%;
+  max-width: 900px;
+
+}
+
+.h1-gallery {
+  padding-top: 40px;
+   color: #222;
+  font-size: 2em;
+  letter-spacing: 5px;
+}
+
+.h2-gallery {
+  text-transform: uppercase;
+  color: rgb(75, 71, 71);
+  font-size: medium;
+
+}
+
+
+/* mobile */
+/* Gallery page typo b2 */
+
+.gbox h1,
+.gbox h3,
+.gbox p,
+.gbox .links {
+  padding: 20px 20px 20px 40px;
+}
+
+.b2 h1,
+.b2 h3 {
+  text-transform: capitalize;
+
+}
+
+.b2 h1 {
+  font-size: 1.5em;
+}
+
+
+.b2 h3 {
+  font-size: 1.2em;
+}
+
+.b2 p {
+  max-width: 80%;
+  text-align: left;
+  font-size: 1em;
+}

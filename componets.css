@@ -1,0 +1,189 @@
+/* Homepage & Gallery Navbar */
+
+.nav-logo{
+ cursor:default;
+}
+
+/* button - Row 2 */
+
+.btn-gallery {
+ max-height: 200px;
+ min-width: 200px;
+ max-width: 300px;
+ padding: 10px;
+ text-align: center;
+ border-radius: 5px;
+ border: 1px solid;
+ background-color: transparent;
+ border: 2px solid rgba(255, 255, 255, .5);
+ color: rgba(255, 255, 255, .8);
+ font-family: "Rubik", sans-serif;
+ font-size: 1.5em;
+ text-transform: uppercase;
+}
+
+.btn-gallery:hover {
+ background-color: rgba(255, 255, 255, .5);
+ color: rgb(12, 12, 12);
+ border: rgb(12, 12, 12);
+}
+
+/* Row-3  about*/
+
+.iframe-about {
+ position: relative;
+ overflow: hidden;
+ padding-top: 56.25%;
+ /* margin-top: 40px; */
+ margin-bottom: 20px;
+}
+
+.iframe-youtube {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+
+}
+
+
+/* Row 4 Contact  */
+
+/* Contact Form  */
+
+.seccontactform {
+ height: 100%;
+ padding: 30px 30px 0px 30px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+
+}
+
+.form {
+ padding-top: 0px;
+ height: 100%;
+ background-color: transparent;
+
+}
+
+.secfrmtitle {
+ padding: 40px 10px 0px 10px;
+}
+
+.f-row input,
+.f-row textarea {
+ width: 100%;
+ padding: 20px 20px;
+ margin: 10px 0;
+ border: 2px solid rgb(77, 72, 72);
+ border-radius: 4px;
+
+}
+
+.btn-submit {
+ font-size: 0.5em;
+ font-weight: 600;
+ background-color: rgb(172, 170, 170);
+
+}
+
+.btn-submit:hover {
+ color: rgb(92, 66, 66);
+ background-color: #fff;
+ font-size: 0.6em;
+
+}
+
+/* media query mobile */
+
+@media(max-width: 450px) {
+ .secfrmtitle {
+  font-size: 1em;
+  text-align: center;
+ }
+}
+
+/*  iframe map style*/
+
+
+.gmap_container {
+ /* margin-top: 30px; */
+ height: 100%;
+ overflow: hidden;
+ padding-bottom: 50%;
+ /* desired aspect ratio */
+ position: relative;
+
+}
+
+.googlemap {
+
+ border: 0;
+ height: 100%;
+ left: 0;
+ position: absolute;
+ top: 0;
+ width: 100%;
+
+}
+
+.map_wrapper {
+ width: 100%;
+ height: 100%;
+ /* border: 2px solid #000; */
+
+}
+
+@media (max-width: 550px) {
+ .gmap_container {
+  margin-left: 5px;
+ }
+}
+
+/* btn home  */
+.btn-home a {
+ padding: 10px;
+ text-decoration: none;
+ text-transform: capitalize;
+ font-size: 0.5em;
+ color: rgb(39, 37, 37);
+}
+
+
+.btn-home a:hover {
+ color: rgb(92, 66, 66);
+ background-color: #fff;
+}
+
+.btn-home .btn-contact {
+ align-self: flex-start;
+ justify-content: flex-end;
+}
+
+
+/* links  <i> home & Gallery Styles */
+
+.links {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.links i {
+ margin: 10px;
+ color: #000;
+}
+
+.links a:link {
+ color: #000;
+}
+
+.links a:hover {
+ color: #5e0808;
+font-size: 2em;
+}
+
+.links i a:visited {
+ color: #406e04;
+}
