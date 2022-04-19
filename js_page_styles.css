@@ -20,12 +20,12 @@ align-items: center;
 }
 
 .container{
- height:50vh;
+ height:90vh;
  width:30%;
  background:#fff;
  display:flex;
  flex-direction: column;
- justify-content: center;
+ justify-content: flex-start;
  align-items: center;
 
 
@@ -33,7 +33,7 @@ align-items: center;
 
 
 h1{
- font-size: 25px;
+ font-size: 20px;
  padding:30px;
 }
 .row1 input,
@@ -46,4 +46,5 @@ h1{
 li{
  list-style-position: inside;
  padding: 10px;
+ font-size: 12px;
 }
