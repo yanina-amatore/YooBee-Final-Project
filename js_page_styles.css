@@ -1,0 +1,44 @@
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+html,
+body,
+main {
+height: 100%;
+
+}
+
+main{
+background-color: rgb(119, 158, 124);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+ height:50vh;
+ width:30%;
+ background:#fff;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+
+}
+
+.row1 input,
+.row1 button {
+ padding: 10px;
+ margin: 10px
+
+}
+
+li{
+ list-style-position: inside;
+ padding: 10px;
+}
