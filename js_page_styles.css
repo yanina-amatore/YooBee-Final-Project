@@ -31,6 +31,11 @@ align-items: center;
 
 }
 
+
+h1{
+ font-size: 25px;
+ padding:30px;
+}
 .row1 input,
 .row1 button {
  padding: 10px;
